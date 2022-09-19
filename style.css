@@ -17,39 +17,16 @@ body *{
     font-family: 'Red-hat-display';
     line-height: 160%;
 }
-header{
-    margin-top: 32px;
-    height: calc(120px+32px);
-}
-header div{
-    width: 120px;
-    margin: auto;
-    background-image: linear-gradient(90deg, aqua 0%, magenta 50%,blue 100%);
-    border-radius: 50%;
-    display: flex;
-    padding: 4px;
-    transition: transform .3s;
-    animation: fromTop .7s .4s backwards;
-}
-header div:hover{
-    transform: scale(1.1);
-}
-header img{
-    width: 100%;
-    border-radius: 50%;
-
-}
 main{
     max-width: 580px;
     width: 90%;
-    margin: 32px auto;
-
+    margin: 790px auto;
     display: grid;
     gap: 24px;
 }
 section{
-    color: aquamarine;
-    background-image: linear-gradient(90deg, aqua 0%, magenta 50%,blue 100%);
+    color: orangered(255, 153, 127);
+    background-image: linear-gradient(90deg, red 0%, yellow 50%,rgb(231, 100, 13) 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
@@ -63,10 +40,11 @@ section h2{
     font-weight: 900;
     font-size: 24px;
     letter-spacing: -0.47px;
+    color: orangered ;
 }
 section p{
     letter-spacing: -0.18px;
-    color: #A1A1AA;
+    color: orangered;
 }
 section ul{
     display: flex;
@@ -81,7 +59,7 @@ section ul li:hover{
     transform: scale(1.1);
 }
 .cardapio-list img{
-    width: 250px;
+    width: 450px;
     border-radius: 8px ;
 }
 .channel-list img{
